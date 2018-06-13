@@ -1,0 +1,32 @@
+== Title==
+ System can not output voice.
+==Description==
+	==Test condition==
+	OS:Windows 10 Education 1709
+	Perload:V11
+	language:EN/CHS
+	BIOS/EC:N22ET37A/N22HT22W
+	Realtek High Definition Audio 6.0.1.7855
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	Click [StartMenu] -> (Expand Start) -> Metro group of right part -> Groove Music application->Suffle 	all.
+	No voice output.
+
+	==PS==
+	click Start Menu->Device Manager->Audio¡¢Video and Game controllers->Realtek High Definition Audio
+	->Driver, click Update Driver.
+	Restar,system will enter os,click start menu,find Music application then click and play music,success 		to output voice.
+	==Reproduce Steps==
+	1.Power on,system will enter OS.
+	2.click start menu,find Groove Music application then click and play music.
+	3.no vocie output.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

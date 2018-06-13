@@ -1,0 +1,30 @@
+== Title==
+ System can not open camera.
+	
+==Description==
+	==Test condition==
+	OS:Windows 10 Pro Technical Preview 10120
+	Perload:V11
+	language:EN/CHS
+	BIOS/EC:N22ET37A/N22HT22W
+	Integrated Camera:Realtek 10.0.10586.111193
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	Restart,system will enter OS,click start menu,find Camera application then click,fail to open Camera.
+	==PS==
+	Restart,system will enter OS,click Start Menu->Device Manager->Cameras->Intergrated Camera->Driver, click Update Driver.
+	Restar,system will enter os,click start menu,find Camera application then click,success to open Camera.
+	==Reproduce Steps==
+	1.Power on,system will enter OS.
+	2.click start menu,find Camera application then click.
+	3.fail to open Camera.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

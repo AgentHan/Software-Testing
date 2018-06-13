@@ -1,0 +1,33 @@
+== Title==
+¡°Lenovo Application ¡± didn't show completely in the Discover of Leneovo Compainion with max window
+==Description==
+	==Test condition==
+	OS:Windows 10  Pro 17134
+	Perload:V11
+	language:EN/CHS
+	BIOS: N1MET34W
+	CPU: Intel(R) Core(TM) i5-7200 CPU @ 2.5GHz 2712
+	GPU: Intel(R) HD Graphics 620(6.3.0.0)
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	¡°Lenovo Application ¡± didn't show completely in the Discover of Leneovo Compainion with max window
+ 	==PS==
+	A) Unique to a certain system? No - Not EUT dependent<br>
+	B) Unique to a configuration? No - Not Config dependent<br>
+	C) Unique to OS? No, - <br>
+	D) Unique to a product?Yes, only Yoda product.- <br>
+	E) Unique to a current version? No - Only test this image<br>
+
+	==Reproduce Steps==
+	1.Go to OS ->Start menu ->Leneovo Compainion ->Discover.<br>
+	2.Find"Lenovo Application " didn't show completely in the Discover of Lenovo 	  Compainion with max window whatever w/ internet or w/o internet-->problem.<br>
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

@@ -1,0 +1,30 @@
+== Title==
+ System can not connect Bluetooth.
+==Description==
+	==Test condition==
+	OS:Windows 10 Education 1709
+	Perload:V11
+	language:EN/CHS
+	BIOS/EC:N22ET37A/N22HT22W
+	Realtek Bluetooth Adapter 1.5.1012.3
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	Click Start Menu -> Settings -> Device -> Bluetooth & other devices -> Add Bluetooth or other device -> Bluetooth,no device show up.
+	==PS==
+	click Start Menu->Device Manager->Bluetooth->Realtek Bluetooth Adapter
+	->Driver, click Update Driver.Restart,system will enter OS,find Bluetooth,connect a device,successd.
+	
+	==Reproduce Steps==
+	1.Power on,system will enter OS.
+	2.Click Start Menu -> Settings -> Device -> Bluetooth & other devices -> Add Bluetooth or other device -> Bluetooth
+	3.no device show up.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

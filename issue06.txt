@@ -1,0 +1,33 @@
+== Title==
+Cortana can not feedback to your voice command.
+==Description==
+	==Test condition==
+	OS:Windows 10  Pro 17134
+	Perload:V11
+	language:EN/CHS
+	BIOS: N1MET34W
+	CPU: Intel(R) Core(TM) i5-7200 CPU @ 2.5GHz 2712
+	Realtek High Definition Audio 6.0.1.7855
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	Speak some voice commands to Cortant,Cortana can not feedback to the voice command.
+ 	==PS==
+	A) Unique to a certain system? No - Not EUT dependent
+	B) Unique to a configuration? No - Not Config dependent
+	C) Unique to a current version? No - Only test this image
+
+	==Reproduce Steps==
+	1.Connect internet, Click microphone icon on the right end of Cortana search bar.
+	2.Speak some voice commands to Cortant.
+	3.Check the feedback of Cortant.
+	4.Cortana can not feedback to the voice command
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

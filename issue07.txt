@@ -1,0 +1,31 @@
+== Title==
+windows update installed failed.
+==Description==
+	==Test condition==
+	OS:Windows 10  Pro 17134
+	Perload:V11
+	language:EN/CHS
+	BIOS: N1MET34W
+	CPU: Intel(R) Core(TM) i5-7200 CPU @ 2.5GHz 2712
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	windows update installed failed.
+ 	==PS==
+	A) Unique to a certain system? No - Not EUT dependent
+	B) Unique to a configuration? No - Not Config dependent
+	C) Unique to a current version? No - Only test this image
+
+	==Reproduce Steps==
+	1.Connect test PC to Internet.
+	2.Go to "Start -> Settings -> Update & Security -> Windows Update".
+	3. windows update installed failed.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

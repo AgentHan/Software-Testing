@@ -1,0 +1,32 @@
+== Title==
+Movie&TV will hang up When Play video file
+==Description==
+	==Test condition==
+	OS:Windows 10  Pro 17134
+	Perload:V11
+	language:EN/CHS
+	BIOS/EC:N22ET37A/N22HT22W
+	Inter(R) HD Graphics 630
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	Click Start Menu ->Movie&TV ->Play video file -> hang up.
+ 	==PS==
+	A) Unique to a configuration? No - Not depend on Config.<br>
+	C) Unique to OS? No, -Only test on Win10 17134<br>
+	D) Unique to a product?Yes, Only test on Kolar.- <br>
+	E) Unique to a current version? No, Only test on Win10 17134 <br>
+	
+	==Reproduce Steps==
+	1.Power on,system will enter OS.
+	2.Click Start Menu ->Movie&TV ->Play video file
+	3.Movie&TV hang up.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2
