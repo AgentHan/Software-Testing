@@ -1,0 +1,35 @@
+== Title==
+User can not register their fingerprint.
+==Description==
+	==Test condition==
+	OS:Windows 10  Pro 17134
+	Perload:V11
+	language:EN/CHS
+	BIOS: N1MET34W
+	CPU: Intel(R) Core(TM) i5-7200 CPU @ 2.5GHz 2712
+	Synaptics FP Sensors (WBF)(PID=0011) 4.5.510.0
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	User can not register their fingerprint
+ 	==PS==
+	A) Unique to a certain system? No - Not EUT dependent
+	B) Unique to a configuration? No - Not Config dependent
+	C) Unique to a current version? No - Only test this image
+
+	==Reproduce Steps==
+	1. Open start menu and go to Settings-> Accounts-> Sign-in options.
+	2. Add a password and then a PIN num. for user account.
+	3. Find Windows Hello and click "Set up".
+	4. Click "Get started", flash your finger on sensor to register a fingerprint.
+	5. Click "Set another" to register another fingerprint.
+	6. Can not register their fingerprint.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2

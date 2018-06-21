@@ -1,0 +1,37 @@
+== Title==
+Thunderbolt Software can not connect any type-C U key.
+==Description==
+	==Test condition==
+	OS:Windows 10  Pro 17134
+	Perload:V11
+	language:EN/CHS
+	BIOS: N1MET34W
+	CPU: Intel(R) Core(TM) i5-7200 CPU @ 2.5GHz 2712
+	Thunderbolt(TM)Controller -15D2  173.3.74.8
+	Intel(R) USB 3.1 eXtensivle Host Controller -1.10(Microsoft)  10.0.17134.1
+	==Test Result==
+	Test units:sku7#11,sku#12
+	Fail units:sku7#11
+	Fail rate by units:1 out of 2 units
+	Fail rate by times:3 out of 3 times(100%)
+	==issue description==
+	Thunderbolt Software can not connect any type-C U key.
+ 	==PS==
+	A) Unique to a certain system? No - Not EUT dependent
+	B) Unique to a configuration? No - Not Config dependent
+	C) Unique to a current version? No - Only test this image
+
+	==Reproduce Steps==
+	1.After entering the system,click start menu,open Thunderbolt Software.
+	2.Connect the type-C U key to the port1 interface of Thunderbolt card. 
+	3.Check Type-C U key into my computer.
+	4.copy some computer files to Type-C U key. copy and check.
+	5.Connect other Thunderbolt divice to the port1 interface of Thunderbolt card. 
+	6.Check the Thunderbolt divice into Thunderbolt software.
+	7.NO device show up.
+==Attchment==
+PIC
+==category==
+OS
+==severity==
+2
